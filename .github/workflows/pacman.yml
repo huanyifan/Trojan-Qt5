@@ -46,7 +46,7 @@ jobs:
           pkgrel=1
           pkgdesc="A cross-platform ss/ssr/vmess/trojan GUI client"
           arch=('x86_64')
-          url='https://github.com/Trojan-Qt5/Trojan-Qt5'
+          url='https://github.com/huanyifan/Trojan-Qt5'
           license=('GPL3')
           depends=('qt5-base>5.11.0', 'grpc>=1.27.0', 'libuv>=1.34.2', 'libsodium>=1.0.17', 'qrencode>=3.4.4', 'zbar>=0.10.0', 'yaml-cpp>=0.6.2', 'openssl>=1.1.1d', 'zlib>=1.12.1', 'icu>=60.2', 'bzip2>=1.0.6')
           makdedepends=('git', 'make', 'gcc', 'qt5-tools', 'go>=1.14.3', 'grpc-cli>=1.27.0', 'qt5-declarative', 'which')
@@ -54,7 +54,7 @@ jobs:
           conflicts=('trojan-qt5')
 
           source=(
-              'Trojan-Qt5::git+https://github.com/huanyifan/https-github.com-Trojan-Qt5-Trojan-Qt5'
+              'Trojan-Qt5::git+https://github.com/huanyifan/Trojan-Qt5'
           )
 
           sha512sums=(
