@@ -54,7 +54,7 @@ jobs:
           conflicts=('trojan-qt5')
 
           source=(
-              'Trojan-Qt5::git+https://github.com/Trojan-Qt5/Trojan-Qt5'
+              'Trojan-Qt5::git+https://github.com/huanyifan/https-github.com-Trojan-Qt5-Trojan-Qt5'
           )
 
           sha512sums=(
